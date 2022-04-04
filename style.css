@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500;600;700;800;900&family=PT+Serif:wght@700&display=swap");
+
+/* font-family: 'Libre Franklin', sans-serif; */
+/* font-family: 'PT Serif', serif; */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  --bgcolor: #26183e;
+  --textcolor: #85b3de;
+}
+body {
+  font-family: "Libre Franklin", sans-serif;
+}
+nav {
+  padding: 20px 0;
+  min-height: 10vh;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0% 10%;
+  background-color: var(--bgcolor);
+}
+.nav-logo-side {
+  gap: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.logo-img {
+  height: 50px;
+}
+.logo {
+  color: #fff;
+  font-size: 30px;
+  font-family: "PT Serif", serif;
+}
+.link {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.about {
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+}
+
+/* nav end */
+
+.hero {
+  background-color: var(--bgcolor);
+  min-height: 90vh;
+  padding: 0 10%;
+  display: flex;
+  align-items: center;
+}
+.hero-left {
+  width: 50%;
+}
+.text-2 {
+  padding-left: 50px;
+  letter-spacing: 4px;
+  z-index: 1;
+  position: relative;
+  font-family: "PT Serif", serif;
+
+  font-size: 45px;
+  color: #fff;
+}
+b {
+  color: var(--textcolor);
+}
+.text1 {
+  font-size: 25px;
+  line-height: 40px;
+  color: rgba(255, 255, 255, 0.73);
+  margin-top: 10px;
+  font-weight: 300;
+}
+
+.hero-right {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.img1 {
+  height: 100%;
+  z-index: 2;
+  width: 70%;
+  object-fit: cover;
+}
+.animation-wing {
+  position: absolute;
+  animation: wing 1.3s ease-in-out forwards 0.2s , shake 2.5s  infinite ease alternate-reverse 1.3s  ;
+
+  transform: translateY(5%) rotateX(-90deg);
+
+  width: 130%;
+  transform-origin: bottom;
+}
+
+@keyframes wing {
+  from {
+    transform: translateY(5%) rotateX(-90deg);
+  }
+  to {
+    transform: translateY(0%) rotateX(0deg);
+  }
+}
+
+@keyframes shake {
+    from{
+        transform: rotatex(-25deg);
+    }    
+    to{
+        transform: rotatex(0deg);
+    }
+}
+
+@media (max-width: 1215px) {
+  .text-2 {
+    font-size: 30px;
+    padding-left: 20px;
+  }
+  .text1 {
+    font-size: 20px;
+    line-height: 33px;
+  }
+}
