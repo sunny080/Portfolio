@@ -448,6 +448,7 @@ color: transparent;
       flex-direction: column-reverse;
     }
     .about-left{
+      padding-right: 0;
       width: 100%;
       text-align: left;
       flex-direction: row;
@@ -466,4 +467,17 @@ color: transparent;
     .all-text-in{
       margin-top: 37px;
     }
+}
+
+@media (max-width:510px) {
+   .about-left{
+     flex-direction: column;
+     align-items: flex-start;
+   }
+   .all-text-in{
+     margin-top:0px;
+   }
+   .text3{
+     margin-top: 0;
+   }
 }
