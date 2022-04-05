@@ -11,6 +11,7 @@
 html {
   --bgcolor: #180f27;
   --textcolor: #85b3de;
+  --graycolor:#757088;
 }
 body {
   font-family: "Libre Franklin", sans-serif;
@@ -119,6 +120,17 @@ b {
   margin-top: 10px;
   font-weight: 300;
 }
+.social-links{
+  display: flex;
+  margin-top: 30px;
+  font-size:35px;
+  gap: 30px;
+  color: var(--graycolor);
+
+}
+.facebook{
+  cursor: pointer;
+}
 
 .hero-right {
   position: relative;
@@ -161,6 +173,31 @@ b {
         transform: rotatex(0deg);
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 1215px) {
   .text-2 {
@@ -253,6 +290,10 @@ b {
     }
     .open{
       right: 0;
+    }
+    .social-links{
+      width: 100%;
+      justify-content: center;
     }
     
 }
