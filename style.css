@@ -676,6 +676,8 @@ color: transparent;
     height: 280px;
   }
   .text-4{
+    background-color: transparent;
+    border: none;
     font-size: 18px;
     font-weight: 300;
     color: var(--golden-color);
@@ -693,6 +695,9 @@ color: transparent;
    }
    .all-text-in{
      margin-top:0px;
+   }
+   .text-3{
+     text-align: center;
    }
    .text3{
      margin-top: 0;
