@@ -409,9 +409,22 @@ color: transparent;
   display: none;
 }
 
-
-
-
+.projects{
+  margin-top: 50px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 500px 500px ;
+}
+.projects-images{
+  width: 100%;
+  height: 100%;
+}
+.projects-image{
+  object-fit:fill;
+  width: 100%;
+  height: 100%;
+}
 
 
 
@@ -469,6 +482,10 @@ color: transparent;
   .text9{
     font-size: 30px;
   }
+  .projects{
+  grid-template-rows: 400px 400px  ;
+    
+  }
 }
 @media (max-width:935px) {
    .stroke-image{
@@ -486,6 +503,10 @@ color: transparent;
   .btn3{
     font-size: 16px;
   }
+  .projects{
+    grid-template-rows: 350px 350px  ;
+      
+    }
 }
 
 
@@ -494,6 +515,7 @@ color: transparent;
     .text-2{
         text-align: center;
         padding-left: 0;
+        font-size: 40px;
     }
     .text1{
         text-align: center;
@@ -525,6 +547,11 @@ color: transparent;
         justify-content: center;
 
 
+    }
+    .active{
+      top: 27px;
+      position: fixed;
+      right: 230px;
     }
     .burger span{
         background-color: #fff;
@@ -603,6 +630,10 @@ color: transparent;
     .experiance-section{
       margin-top: 50px;
     }
+    .projects{
+      grid-template-rows: 400px 400px 400px 400px  ;
+      grid-template-columns: 1fr 1fr;  
+      }
 }
 
 
@@ -612,12 +643,14 @@ color: transparent;
   }
   .buttons{
     height: 0;
+    background-color: var(--golden-color);
+    border-radius: 20px;
     overflow: hidden;
     width: auto;
     position: absolute;
     flex-direction: column;
-    width: 300px;
-    margin-top: 40px;
+    width: 100%;
+    margin-top: 20px;
     transition: all .3s;
     transform:scale(0) ;
 
@@ -625,15 +658,22 @@ color: transparent;
 
   }
   .sorts{
-    
+    width: 100%;
     display: flex;
     justify-content: center;
     position: relative;
   }
-  .sorts:hover > .buttons{
+  .arrow{
+    transform:rotate(-90deg);
+    transition: .3s;
+  }
+  .sorts .text-4:hover .arrow{
+    transform: rotate(0deg);
+  }
+  .sorts:hover   .buttons{
     transform:scale(1) ;
     
-    height: 240px;
+    height: 280px;
   }
   .text-4{
     font-size: 18px;
@@ -666,4 +706,14 @@ color: transparent;
    .experiance-section{
     margin-top: 100px;
   }
+  .text-2{
+    font-size: 30px;
+  }
+  .text-3{
+    font-size: 50px;
+  }
+  .projects{
+    grid-template-rows: 450px  450px  450px  450px  450px  450px  450px  450px ;
+    grid-template-columns: 1fr ;  
+    }
 }
