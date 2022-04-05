@@ -9,11 +9,14 @@
   box-sizing: border-box;
 }
 html {
-  --bgcolor: #26183e;
+  --bgcolor: #180f27;
   --textcolor: #85b3de;
 }
 body {
   font-family: "Libre Franklin", sans-serif;
+}
+a{
+    text-decoration: none;
 }
 nav {
   padding: 20px 0;
@@ -48,6 +51,41 @@ nav {
   color: #fff;
   font-size: 20px;
 }
+.burger{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* nav end */
 
@@ -133,4 +171,88 @@ b {
     font-size: 20px;
     line-height: 33px;
   }
+}
+
+
+
+
+@media (max-width:839px) {
+    .text-2{
+        text-align: center;
+        padding-left: 0;
+    }
+    .text1{
+        text-align: center;
+    }
+    .hero{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .hero-left{
+        width: 100%;
+        padding-top: 100px;
+    }
+    .hero-right{
+        width: 100%;
+    }
+    .animation-wing{
+        width: 110%;
+    }
+    .burger{
+        width: 40px;
+        height: 40px;
+        display: flex;
+        gap: 8px;
+        flex-direction: column;
+        cursor: pointer;
+        align-items: center;
+        z-index: 7;
+        position: relative;
+        justify-content: center;
+
+
+    }
+    .burger span{
+        background-color: #fff;
+        width: 35px;
+        transition: ease-in .3s;
+        height: 3px;
+        border-radius: 3px;
+    }
+    .active span{
+        background-color:black;
+    }
+    .active span:nth-child(1){
+         transform: rotateZ(45deg) translateY(500%);
+         
+    }
+    .active span:nth-child(2){
+         opacity: 0;
+    }
+    .active span:nth-child(3){
+        transform: rotateZ(-45deg) translateY(-500%);
+         
+    }
+    .about{
+        color: black;
+    }
+    .link{
+        transition: all ease-in-out .5s;
+        position:fixed;
+        width: 300px;
+        height: 100vh;
+        padding-top: 130px;
+        top: 0;
+        gap: 50px;
+        padding-left: 20px;
+        right: -300px;
+        flex-direction: column;
+        align-items: left;
+        z-index: 5;
+        background-color: rgba(255, 255, 255, 0.794);
+    }
+    .open{
+      right: 0;
+    }
+    
 }
