@@ -212,6 +212,7 @@ color: transparent;
 }
 
 .text3{
+  line-height: 28px;
   margin-top: -50px;
   font-weight: 300;
   font-size: 18px;
@@ -220,6 +221,8 @@ color: transparent;
 
 }
 .text4{
+  line-height: 28px;
+
   font-size: 18px;
   margin-top: 80px;
   color: #fff;
@@ -479,5 +482,11 @@ color: transparent;
    }
    .text3{
      margin-top: 0;
+   }
+   .text7{
+     font-size: 50px;
+   }
+   .stroke-image{
+     font-size: 230px;
    }
 }
