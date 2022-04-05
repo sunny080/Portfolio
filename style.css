@@ -11,9 +11,9 @@
 html {
 
   --bgcolor: #180f27;
-  --textcolor: #85b3de;
+  --textcolor: #cc266e;
   --graycolor:#757088;
-  --golden-color:#F8C808;
+  --golden-color:#eed130;
 }
 body {
   font-family: "Libre Franklin", sans-serif;
@@ -426,6 +426,80 @@ color: transparent;
   height: 100%;
 }
 
+/* portfolio-section-complete */
+
+
+.testtimonials{
+  width: 100%;
+  display: flex;
+  padding: 0 10%;
+  margin-top: 50px;
+}
+.testtimonials-left{
+  width: 50%;
+  text-align: right;
+  padding-right:10% ;
+
+}
+.text-5{
+  font-size: 18px;
+  color: #fff;
+  font-weight: 300;
+  margin-top: -50px;
+}
+
+
+
+.testtimonials-right{
+  width: 50%;
+
+}
+.text-6{
+  
+  margin-top: 120px;
+  font-size: 18px;
+  font-weight: 300;
+  color: var(--golden-color);
+}
+.text-7{
+  margin-top: 10px;
+  font-size: 70px;
+  color: #fff;
+  font-family: 'PT Serif', serif;
+}
+.testtimonial{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.testtimonial-men{
+  width: 150px;
+  height: 150px;
+
+}
+.text-8{
+  border-radius: 10px;
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 20px;
+  width: 100%;
+  color: #fff;
+  padding: 10px 20px;
+  background-color: var(--golden-color);
+}
+
+.text-9{
+  margin-top: 20px;
+  color: #fff;
+  font-size: 24px;
+}
+.text-0{
+  color: var(--textcolor);
+  margin-top: 20px;
+  font-size: 24px;
+}
 
 
 
@@ -440,9 +514,11 @@ color: transparent;
 
 
 
-
-
-
+@media (max-width:1400px) {
+  .text-10{
+    font-size: 350px;
+  }
+}
 
 
 
@@ -485,6 +561,9 @@ color: transparent;
   .projects{
   grid-template-rows: 400px 400px  ;
     
+  }
+  .text-10{
+    font-size: 270px;
   }
 }
 @media (max-width:935px) {
@@ -634,6 +713,24 @@ color: transparent;
       grid-template-rows: 400px 400px 400px 400px  ;
       grid-template-columns: 1fr 1fr;  
       }
+      .testtimonials{
+        flex-direction: column-reverse;
+
+      }
+      .testtimonials-left{
+        width: 100%;
+        text-align: center;
+        padding-right:0 ;
+
+      }
+      .testtimonials-right{
+        width: 100%;
+
+      }
+      .text-5{
+        margin-top: -20px;
+      }
+    
 }
 
 
@@ -709,7 +806,7 @@ color: transparent;
      font-size: 230px;
    }
    .experiance-section{
-    margin-top: 100px;
+    margin-top: 140px;
   }
   .text-2{
     font-size: 30px;
