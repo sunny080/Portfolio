@@ -187,7 +187,6 @@ b {
   margin-top: 100px;
   display: flex;
   width: 100%;
-  /* align-items: center; */
   padding: 0 10%;
    
 }
@@ -299,6 +298,60 @@ color: transparent;
 
 
 
+/* about section complete */
+
+
+
+
+.experiance-section{
+  margin-top: 200px;
+  display: flex;
+  padding: 0 10%;
+  justify-content: center;
+
+}
+.cards{
+  gap: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+}
+.card{
+  width: 370px;
+
+}
+.card-image{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.text9{
+  font-size: 35px;
+  font-family: 'PT Serif', serif;
+  margin-top: 20px;
+  color: #fff;
+
+}
+.text0{
+  font-size: 17px;
+  color: #fff;
+  margin-top: 20px;
+  line-height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -352,6 +405,9 @@ color: transparent;
   }
   .text8{
     font-size: 16px;
+  }
+  .text9{
+    font-size: 30px;
   }
 }
 @media (max-width:935px) {
@@ -470,6 +526,14 @@ color: transparent;
     .all-text-in{
       margin-top: 37px;
     }
+    .cards{
+      flex-wrap: wrap;
+      gap: 50px 0px;
+      justify-content: center;
+    }
+    .experiance-section{
+      margin-top: 50px;
+    }
 }
 
 @media (max-width:510px) {
@@ -489,4 +553,7 @@ color: transparent;
    .stroke-image{
      font-size: 230px;
    }
+   .experiance-section{
+    margin-top: 100px;
+  }
 }
