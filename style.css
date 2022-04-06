@@ -1041,16 +1041,37 @@ overflow: hidden;
     }
     .projects-images{
       width: 100%;
-      
     }
 }
 
 
 
 
+.preloader{
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  z-index: 200;
+ background-color: #E1E1E1;
+  position: fixed;
 
+}
 
-
+.preloader-image{
+  object-fit: scale-down;
+  
+  position: relative;
+}
+.hide-preloader{
+  visibility: hidden;
+  z-index: -999;
+}
 
 
 
