@@ -416,7 +416,7 @@ color: transparent;
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 500px 500px ;
+  grid-template-rows: 500px 500px 500px ;
 }
 .projects-images{
   width: 100%;
@@ -625,22 +625,37 @@ overflow: hidden;
   gap: 20px;
 }
 .name-area{
+  outline: none;
   border: none;
   background-color: #1b102b;
   height: 50px;
   width: 80%;
   font-size: 18px;
   padding-left: 10PX;
+  color: #fff;
+  border-radius: 5px;
+  transition: .3s;
 }
 .name-area-1{
-font-family: 'Libre Franklin', sans-serif;
+  border-radius: 5px;
+  outline: none;
+  font-family: 'Libre Franklin', sans-serif;
   padding-top: 10px;
   border: none;
   background-color: #1b102b;
   height: 150px;
   width: 80%;
+  color: #fff;
   font-size: 18px;
   padding-left: 10PX;
+  transition: .3s;
+
+}
+.name-area:focus{
+   background-color: #221831;
+}
+.name-area-1:focus{
+  background-color: #221831;
 }
 .btn6{
   
@@ -725,7 +740,7 @@ font-family: 'Libre Franklin', sans-serif;
     font-size: 30px;
   }
   .projects{
-  grid-template-rows: 400px 400px  ;
+  grid-template-rows: 400px 400px 400px ;
     
   }
   .text-10{
@@ -752,7 +767,7 @@ font-family: 'Libre Franklin', sans-serif;
     font-size: 16px;
   }
   .projects{
-    grid-template-rows: 350px 350px  ;
+    grid-template-rows: 350px 350px 350px ;
       
     }
 }
@@ -875,7 +890,7 @@ font-family: 'Libre Franklin', sans-serif;
       margin-top: 50px;
     }
     .projects{
-      grid-template-rows: 400px 400px 400px 400px  ;
+      grid-template-rows: 400px 400px 400px 400px 400px 400px ;
       grid-template-columns: 1fr 1fr;  
       }
       .testtimonials{
@@ -1018,10 +1033,340 @@ font-family: 'Libre Franklin', sans-serif;
     font-size: 50px;
   }
   .projects{
-    grid-template-rows: 450px  450px  450px  450px  450px  450px  450px  450px ;
+    grid-template-rows: 450px  450px  450px  450px  450px  450px  450px  450px 450px 450px 450px 450px ;
     grid-template-columns: 1fr ;  
     }
     .signature-image{
       width: 250px;
     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 8 / 16 / 22 / 32 / 40 / 48 / 56 / 64 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav2{
+  transition: .3s;
+}
+
+.nav2:hover{
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+.projects-images:nth-child(1){
+   display: none;
+}
+.projects-images:nth-child(2){
+  display: none;
+}
+.projects-images:nth-child(3){
+  display: none;
+}
+.projects-images:nth-child(4){
+  display: none;
+}
+.projects-images:nth-child(5){
+  display: none;
+}
+.projects-images:nth-child(6){
+  display: none;
+}
+.projects-images:nth-child(7){
+  display: none;
+}
+.projects-images:nth-child(9){
+  display: none;
+}
+.projects-images:nth-child(10){
+  display: none;
+}
+.projects-images:nth-child(11){
+  display: none;
+}.projects-images:nth-child(12){
+  display: none;
+}.projects-images:nth-child(13){
+  display: none;
+}.projects-images:nth-child(14){
+  display: none;
+}.projects-images:nth-child(15){
+  display: none;
+}.projects-images:nth-child(17){
+  display: none;
+}.projects-images:nth-child(18){
+  display: none;
+}.projects-images:nth-child(19){
+  display: none;
+}.projects-images:nth-child(20){
+  display: none;
+}.projects-images:nth-child(21){
+  display: none;
+}.projects-images:nth-child(23){
+  display: none;
+}.projects-images:nth-child(24){
+  display: none;
+}
+
+.projects-images:nth-child(25){
+  display: none;
+}
+.projects-images:nth-child(26){
+  display: none;
+}
+.projects-images:nth-child(27){
+  display: none;
+}
+
+.projects-images:nth-child(28){
+  display: none;
+}
+.projects-images:nth-child(29){
+  display: none;
+}
+.projects-images:nth-child(30){
+  display: none;
+}
+.projects-images:nth-child(31){
+  display: none;
+}
+.projects-images:nth-child(33){
+  display: none;
+}.projects-images:nth-child(34){
+  display: none;
+}
+.projects-images:nth-child(35){
+  display: none;
+}.projects-images:nth-child(36){
+  display: none;
+}
+.projects-images:nth-child(37){
+  display: none;
+}
+
+.projects-images:nth-child(38){
+  display: none;
+}
+.projects-images:nth-child(39){
+  display: none;
+}
+.projects-images:nth-child(41){
+  display: none;
+}
+.projects-images:nth-child(42){
+  display: none;
+}
+.projects-images:nth-child(43){
+  display: none;
+}
+.projects-images:nth-child(44){
+  display: none;
+}
+.projects-images:nth-child(45){
+  display: none;
+}
+.projects-images:nth-child(46){
+  display: none;
+}
+.projects-images:nth-child(47){
+  display: none;
+}
+.projects-images:nth-child(49){
+  display: none;
+}
+.projects-images:nth-child(50){
+  display: none;
+}
+.projects-images:nth-child(51){
+  display: none;
+}
+.projects-images:nth-child(52){
+  display: none;
+}
+.projects-images:nth-child(53){
+  display: none;
+}
+.projects-images:nth-child(54){
+  display: none;
+}
+.projects-images:nth-child(55){
+  display: none;
+}
+.projects-images:nth-child(57){
+  display: none;
+}
+.projects-images:nth-child(58){
+  display: none;
+}
+.projects-images:nth-child(59){
+  display: none;
+}
+.projects-images:nth-child(60){
+  display: none;
+}
+.projects-images:nth-child(61){
+  display: none;
+}
+.projects-images:nth-child(62){
+  display: none;
+}
+.projects-images:nth-child(63){
+  display: none;
+}
+
+.projects-images:nth-child(65){
+  display: none;
+}
+
+.projects-images:nth-child(66){
+  display: none;
+}
+.projects-images:nth-child(67){
+  display: none;
+}
+.projects-images:nth-child(68){
+  display: none;
+}
+
+.projects-images:nth-child(70){
+  display: none;
+}
+.projects-images:nth-child(71){
+  display: none;
+}
+
+.projects-images:nth-child(72){
+  display: none;
+}
+.projects-images:nth-child(73){
+  display: none;
+}
+.projects-images:nth-child(74){
+  display: none;
+}
+.projects-images:nth-child(75){
+  display: none;
+}
+.projects-images:nth-child(76){
+  display: none;
+}
+.projects-images:nth-child(77){
+  display: none;
+}
+.projects-images:nth-child(78){
+  display: none;
+}
+.projects-images:nth-child(79){
+  display: none;
+}
+.projects-images:nth-child(81){
+  display: none;
+}
+.projects-images:nth-child(82){
+  display: none;
+}
+.projects-images:nth-child(83){
+  display: none;
+}
+.projects-images:nth-child(84){
+  display: none;
+}
+.projects-images:nth-child(85){
+  display: none;
+}
+.projects-images:nth-child(86){
+  display: none;
+}
+.projects-images:nth-child(87){
+  display: none;
+}
+.projects-images:nth-child(89){
+  display: none;
+}
+
+.projects-images:nth-child(90){
+  display: none;
+}.projects-images:nth-child(91){
+  display: none;
+}
+.projects-images:nth-child(92){
+  display: none;
+}
+.projects-images:nth-child(93){
+  display: none;
+}
+.projects-images:nth-child(94){
+  display: none;
+}
+.projects-images:nth-child(95){
+  display: none;
 }
