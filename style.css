@@ -53,6 +53,7 @@ nav {
   gap: 20px;
 }
 .about {
+  width: fit-content;
   cursor: pointer;
   color: #fff;
   font-size: 20px;
