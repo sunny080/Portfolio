@@ -9,6 +9,7 @@
   box-sizing: border-box;
 }
 html {
+  scroll-behavior: smooth;
 
   --bgcolor: #180f27;
   --textcolor: #cc266e;
@@ -16,6 +17,7 @@ html {
   --golden-color:#eed130;
 }
 body {
+  
   font-family: "Libre Franklin", sans-serif;
   background-color: var(--bgcolor);
 }
@@ -794,11 +796,7 @@ font-family: 'Libre Franklin', sans-serif;
 
 
     }
-    .active{
-      top: 27px;
-      position: fixed;
-      right: 230px;
-    }
+  
     .burger span{
         background-color: #fff;
         width: 35px;
@@ -931,6 +929,9 @@ font-family: 'Libre Franklin', sans-serif;
       .btn6{
         width: 100%;
       }
+      .line-1{
+       width: 100%;
+      }
     
 }
 
@@ -989,7 +990,8 @@ font-family: 'Libre Franklin', sans-serif;
 @media (max-width:510px) {
    .about-left{
      flex-direction: column;
-     align-items: flex-start;
+     align-items: center;
+     text-align: center;
    }
    .all-text-in{
      margin-top:0px;
